@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server -c-1 .",
+    "serve:python": "python -m http.server 8000"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "three": "^0.181.1"
+  }
+}
